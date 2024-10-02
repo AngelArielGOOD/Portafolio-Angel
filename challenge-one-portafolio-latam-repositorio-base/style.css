@@ -1,0 +1,289 @@
+/* General styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Header */
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #222;
+    color: white;
+}
+
+.cabecera__logo {
+    height: 60px;
+}
+
+.cabecera__titulo {
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.navegacion__lista {
+    display: flex;
+    gap: 30px;
+}
+
+.navegacion__elemento a {
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navegacion__elemento a:hover {
+    color: #f39c12;
+}
+
+/* Section - Presentación */
+.presentacion {
+    display: flex;
+    align-items: center;
+    padding: 80px 50px;
+    background-color: #f39c12;
+    color: white;
+}
+
+.presentacion__foto {
+    border-radius: 50%;
+    height: 180px;
+    margin-right: 50px;
+    border: 5px solid white;
+}
+
+.presentacion__contenedor {
+    max-width: 600px;
+}
+
+.presentacion__titulo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.presentacion__subtitulo {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
+}
+
+.redes__img a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    gap: 10px;
+    transition: color 0.3s;
+}
+
+.redes__img a:hover {
+    color: #333;
+}
+
+/* Section - Sobre mí */
+.sobre-mi {
+    padding: 60px 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.sobre-mi__titulo {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+
+.sobre-mi__texto {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Section - Habilidades */
+.habilidades {
+    padding: 60px 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.habilidades__titulo {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #f39c12;
+}
+
+.habilidades__lista {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.habilidades__elemento {
+    text-align: center;
+}
+
+.habilidades__icono {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.habilidades__nombre {
+    font-size: 18px;
+    color: white;
+}
+
+/* Section - Aficiones */
+.aficiones {
+    padding: 60px 50px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.aficiones__titulo {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #f39c12;
+}
+
+.aficiones__lista {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.aficiones__elemento {
+    text-align: center;
+}
+
+.aficiones__icono {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.aficiones__nombre {
+    font-size: 18px;
+}
+
+/* Section - Formación */
+.formacion {
+    padding: 60px 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.formacion__titulo {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #f39c12;
+}
+
+.formacion__lista {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.formacion__elemento {
+    text-align: center;
+}
+
+.formacion__icono {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.formacion__nombre {
+    font-size: 18px;
+}
+
+.formacion__detalle {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Section - Contacto */
+.contacto {
+    padding: 60px 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.contacto__titulo {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #f39c12;
+}
+
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto__campo {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contacto__boton {
+    padding: 15px 40px;
+    background-color: #f39c12;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contacto__boton:hover {
+    background-color: #d35400;
+}
+
+.contacto__info {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.contacto__elemento {
+    margin-bottom: 10px;
+}
+
+.contacto__info a {
+    color: #f39c12;
+    text-decoration: underline;
+}
+
